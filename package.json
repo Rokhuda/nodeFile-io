@@ -1,0 +1,13 @@
+{
+  "name": "rokhuda",
+  "version": "1.0.0",
+  "description": "Test backend service",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Rokhuda Tshitimbi",
+  "license": "ISC"
+}
