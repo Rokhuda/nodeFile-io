@@ -37,6 +37,9 @@ describe("Load method", () => {
 
 describe("visitor count", () => {
     it("should assign every instance of a visitor a number", () => {
+          var Visitor;
+          Visitor = require('../main');
+          visitor = new Visitor('Rokhuda', 30, "21/3/19", "1hr30", 'attentive', 'Ryuk');
         global.count = 0
         let result = counter++ 
         expect(result).toBeGreaterThan(0)
